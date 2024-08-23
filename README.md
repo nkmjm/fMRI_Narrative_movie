@@ -13,5 +13,5 @@ The demonstrations are based on the paper:
 # 
 
 - Install pycortex
-"" git clone https://github.com/gallantlab/pycortex.git cd pycortex; python setup.py install ""
+`` git clone https://github.com/gallantlab/pycortex.git cd pycortex; python setup.py install ``
 
