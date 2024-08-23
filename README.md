@@ -12,22 +12,19 @@ The demonstrations are based on the paper:
 
 ## Environment setup
 Assuming the use of Miniconda.
-- Create a new environment and install basic packages<br>
+- Create a new environment and install basic packages.<br>
 ```
 conda create --name {env_name} python=xx.xx
-conda activate {env_name}``
+conda activate {env_name}
 conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random
 ```
-- Install himalaya <https://github.com/gallantlab/himalaya> (for "demo__dncoding_model_fitting.ipynb")<br>
+- Install [himalaya](https://github.com/gallantlab/himalaya).<br>
+for "demo__dncoding_model_fitting.ipynb"
 ```
 pip install himalaya
 ```
-- Install torch <> (for "demo__feature_extraction.ipynb")<br>
-```
-```
-- Install pycortex (for "demo__pycortex_visualization.ipynb")<br>
-```
-git clone https://github.com/gallantlab/pycortex.git<br>
-cd pycortex; python setup.py install
-```
+- Install PyTorch according to the instructions on the [PyTorch website](https://pytorch.org/).<br>
+for "demo__feature_extraction.ipynb"
+- Install pycortex according to the instruction on the [Pycortex website](https://gallantlab.org/pycortex/install.html).<br> (for "demo__pycortex_visualization.ipynb")<br>
+
 
