@@ -12,7 +12,7 @@ The demonstrations are based on the paper:
 
 # Environment setup
 Assuming the use of Miniconda.
-- Create neu environment and install basic packages<br>
+- Create new environment and install basic packages<br>
 ```
 conda create --name {env_name} python=xx.xx<br>
 conda activate {env_name}``<br>
