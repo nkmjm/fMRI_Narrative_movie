@@ -12,5 +12,6 @@ The demonstrations are based on the paper:
 
 # 
 
-- git clone https://github.com/gallantlab/pycortex.git cd pycortex; python setup.py install
+- Install pycortex
+"" git clone https://github.com/gallantlab/pycortex.git cd pycortex; python setup.py install ""
 
