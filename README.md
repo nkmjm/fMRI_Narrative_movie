@@ -11,8 +11,8 @@ The demonstrations are based on the paper:
 - To visualize data on the flattened cortical map, need to set pycortex filestore<https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html> to the database root_dir.
 
 # 
-- Install modules<br>
 Assuming the use of Miniconda.
+- Create neu environment and install basic packages<br>
 conda create -n xxx
 `` conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random ``
 
