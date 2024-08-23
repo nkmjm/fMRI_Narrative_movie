@@ -13,9 +13,11 @@ The demonstrations are based on the paper:
 # Environment setup
 Assuming the use of Miniconda.
 - Create neu environment and install basic packages<br>
-`` conda create --name {env_name} python=xx.xx<br>
-　conda activate {env_name}``<br>
-　conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random ``
+```
+conda create --name {env_name} python=xx.xx<br>
+conda activate {env_name}``<br>
+conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random
+```
 - Install himalaya (for "")<br>
 - Install torch (for "demo__feature_extraction.ipynb")<br>
 - Install pycortex (for "demo__pycortex_visualization.ipynb")<br>
