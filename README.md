@@ -11,7 +11,9 @@ The demonstrations are based on the paper:
 - To visualize data on the flattened cortical map, need to set pycortex filestore<https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html> to the database root_dir.
 
 # 
-
-- Install pycortex
-`` git clone https://github.com/gallantlab/pycortex.git cd pycortex; python setup.py install ``
+- Install modules<br>
+`` `` 
+- Install pycortex<br>
+`` git clone https://github.com/gallantlab/pycortex.git ``<br>
+`` cd pycortex; python setup.py install ``<br>
 
