@@ -14,7 +14,7 @@ The demonstrations are based on the paper:
 Assuming the use of Miniconda.
 - Create a new environment and install basic packages.<br>
 ```
-conda create --name {env_name} python=xx.xx
+conda create --name {env_name} python=3.10
 conda activate {env_name}
 conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random
 ```
