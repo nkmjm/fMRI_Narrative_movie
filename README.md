@@ -12,8 +12,13 @@ The demonstrations are based on the paper:
 
 # 
 - Install modules<br>
-`` `` 
-- Install pycortex<br>
+Assuming the use of Miniconda.
+conda create -n xxx
+`` conda install os numpy pickle scipy yaml matplotlib h5py jupyter　sklearn itertools statsmodels random ``
+
+- Install himalaya (for "")<br>
+- Install torch (for "demo__feature_extraction.ipynb")<br>
+- Install pycortex (for "demo__pycortex_visualization.ipynb")<br>
 `` git clone https://github.com/gallantlab/pycortex.git ``<br>
 `` cd pycortex; python setup.py install ``<br>
 
