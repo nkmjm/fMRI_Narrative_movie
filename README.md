@@ -1,5 +1,8 @@
 # fMRI_Narrative_movie
 The demonstrations are based on the paper:
+Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
+"Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
+[URL](xxx)
 
 ## Initial set up
 ### Prepare data used in the demonstrations. 
