@@ -8,7 +8,7 @@ The demonstrations are based on the paper:
 ### Path Management and Configuration Updates
 - Need to set a root dir of the config file () under "util."
   In the {xxx} of the config file, specify the path where the directory "derivative" is stored.
-- To visualize data on the flattened cortical map, need to set pycortex filestore<https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html> to the database root_dir.
+- To visualize data on the flattened cortical map, need to set pycortex filestore <https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html> to the database root_dir.
 
 ## Environment setup
 Assuming the use of Miniconda.
