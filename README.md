@@ -4,11 +4,11 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
 [URL](xxx)
 
-## Initial set up
+## Initial setup
 ### Prepare data used in the demonstrations. 
 - Data is available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
-### Path Management and Configuration Updates
+### Path management and configuration updates
 - To set the root directory of the data, specify the root directory as "dir: derivative:" in the config file ("config__drama_data.yaml") under the "util."
 - To visualize data on the flattened cortical map, set the pycortex filestore database directory according to the instructions at https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html.
 
