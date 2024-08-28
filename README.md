@@ -5,7 +5,7 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 [URL](xxx)
 
 ## Initial setup
-### Prepare data used in the demonstrations. 
+### Prepare data used in the demonstrations
 - Data is available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
 ### Path management and configuration updates
