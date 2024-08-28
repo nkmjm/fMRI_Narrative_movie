@@ -6,7 +6,7 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 
 ## Initial set up
 ### Prepare data used in the demonstrations. 
-- Data is available from OpenNeuro <url>.
+- Data is available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
 ### Path Management and Configuration Updates
 - To set the root directory of the data, specify the root directory as "dir: derivative:" in the config file ("config__drama_data.yaml") under the "util."
