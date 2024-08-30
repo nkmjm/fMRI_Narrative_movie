@@ -1,5 +1,5 @@
 # fMRI_Narrative_movie
-This code is prepared for analyzing [an fMRI dataset](openNeuro url), which was collected to investigate brain representations related to cognitive functions involved in narrative understanding.<br>
+This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was collected to investigate brain representations related to cognitive functions involved in narrative understanding.<br>
 This code follows the analytical procedures outlined in the following paper.<br>
 We have prepared three types of demonstrations related to this analysis.<br>
 <br>
