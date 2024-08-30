@@ -14,7 +14,6 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 ``filestore = {your pycortex_db dir}``
 - More detailed instructions can be found at https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html.
 
-
 ## Environment setup
 Assuming the use of Miniconda.
 - Create a new environment and install basic packages.<br>
@@ -31,5 +30,11 @@ pip install himalaya
 - Install PyTorch according to the instructions on the [PyTorch website](https://pytorch.org/).<br>
 for "demo__feature_extraction.ipynb"
 - Install pycortex according to the instruction on the [Pycortex website](https://gallantlab.org/pycortex/install.html).<br> (for "demo__pycortex_visualization.ipynb")<br>
+
+## Start jupyter notebook
+Setting Kernel to {env_name}.
+- "demo__encoding_model_fitting.ipynb"
+-- model fitting
+-- xxx 
 
 
