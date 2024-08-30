@@ -58,7 +58,7 @@ Start jupyter notebook and setting Kernel to {env_name}.
   - Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [Pycortex](https://gallantlab.org/pycortex/index.html).
   - Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
 
-# 
+# Important notes
 "util/util_ridge.py" includes an excerpt from Gallant lab's Github code (!!!)
-"generate_leave_one_run_out": https://github.com/gallantlab/voxelwise_tutorials/blob/main/voxelwise_tutorials/utils.py
+"generate_leave_one_run_out" You can find it at: <br>https://github.com/gallantlab/voxelwise_tutorials/blob/main/voxelwise_tutorials/utils.py
 
