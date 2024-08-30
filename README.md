@@ -59,6 +59,6 @@ Start jupyter notebook and setting Kernel to {env_name}.
   - Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
 
 # Important notes
-"util/util_ridge.py" includes an excerpt from Gallant lab's Github code (!!!)
+"util/util_ridge.py" includes an excerpt from Gallant lab's Github code.<br>
 "generate_leave_one_run_out" You can find it at: <br>https://github.com/gallantlab/voxelwise_tutorials/blob/main/voxelwise_tutorials/utils.py
 
