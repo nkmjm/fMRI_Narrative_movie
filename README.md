@@ -1,7 +1,6 @@
 # fMRI_Narrative_movie
-This dataset is 
-demo using data colected 6 participants ...
-The demonstrations are based on the following paper:<br>
+Here, we provide code to help investigate brain representations related to cognitive functions involved in narrative understanding.<br>
+The code follows the analytical procedures outlined in the following paper, and we offer three types of demonstrations for the analyses.<br>
 Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
 "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
 [URL](xxx)
