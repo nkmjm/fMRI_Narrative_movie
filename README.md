@@ -4,7 +4,7 @@ This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was c
 - For the movies, there are three types of annotations related to narrative understanding (objective information, speech transcription, narrative content (story)).
 
 This code follows the analytical procedures outlined in the following paper.<br>
-We have prepared three types of demonstrations related to this analysis.<br>
+We have prepared three types of demonstrations related to these analyses.<br>
 - Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
   "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
   [URL](xxx)
