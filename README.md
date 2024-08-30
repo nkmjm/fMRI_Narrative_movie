@@ -31,10 +31,10 @@ pip install himalaya
 for "demo__feature_extraction.ipynb"
 - Install pycortex according to the instruction on the [Pycortex website](https://gallantlab.org/pycortex/install.html).<br> (for "demo__pycortex_visualization.ipynb")<br>
 
-## Start jupyter notebook
-Setting Kernel to {env_name}.
+## Demonstration
+Start jupyter notebook and setting Kernel to {env_name}.
 - "demo__encoding_model_fitting.ipynb"
--- model fitting
--- xxx 
+  - model fitting
+  - xxx 
 
 
