@@ -15,7 +15,7 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
   - *annotation*: three types of annotations (objective information,speech transcription, narrative content(story))
   - *feature*: LLM latent features extracted from the annotations
   - *pycortex_db*: pycortex database, which is used for visualization of the analytical results on cortical surface.
-  - *localizer*: statistics and estimates derived from functional localizer data.
+  - *localizer*: statistics and estimates derived from 9 types of functional localizer data.
   - *ridge*: prediction accuracies of an individual encoding model using the latent features for the three types of annotations.
   LLM latent features extracted from the annotations, pycortex database, localizer information, and results of encoding model fitting.
 ### Path management and configuration updates
@@ -48,7 +48,7 @@ Start jupyter notebook and setting Kernel to {env_name}.
 - "demo__encoding_model_fitting.ipynb"
   - Constructing encoding model to predict the brain responses from the LLM latent features.
 - "demo__pycortex_visualization.ipynb"
-  - Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [pycortex](https://gallantlab.org/pycortex/index.html).
-  - We introduced two demonstrations to visualize statistics for the functional localizer and encoding results.
+  - Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [Pycortex](https://gallantlab.org/pycortex/index.html).
+  - Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
 
 
