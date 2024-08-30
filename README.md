@@ -3,12 +3,12 @@ This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was c
 - We measured the BOLD responses during 6 participants watched 9 titles of narrative movies (8.6 hours in total).
 - For the movies, there are three types of annotations related to narrative understanding (objective information, speech transcription, narrative content (story)).
 
-This code follows the analytical procedures outlined in the following paper.<br>
-We have prepared three types of demonstrations related to these analyses.<br>
-The three types of demonstrations: "demo__feature_extruction.ipynb" "demo__encoding_model_fitting.ipynb" "demo__pycortex_visualization.ipynb"
+This code follows the analytical procedures outlined in the following paper.
 - Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
   "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
   [URL](xxx)
+We have prepared three types of demonstration codes related to these analyses:<br>
+"demo__feature_extruction.ipynb" "demo__encoding_model_fitting.ipynb" "demo__pycortex_visualization.ipynb"
 
 ## Initial setup
 ### Prepare data used in the demonstrations
