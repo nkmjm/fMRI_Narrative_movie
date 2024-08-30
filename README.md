@@ -1,6 +1,6 @@
 # fMRI_Narrative_movie
 This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was collected to investigate brain representations related to cognitive functions involved in narrative understanding. The overview of the data is as follows<br>
-- We measured the BOLD responses during 6 participants watched 9 titles of narrative movies (8.6 hours in total).
+- We measured the BOLD responses during 6 participants watched 9 titles of narrative movies (8.86 hours in total).
 - For the movies, there are three types of annotations related to narrative understanding (objective information, speech transcription, narrative content (story)).
 
 This code follows the analytical procedures outlined in the following paper.
