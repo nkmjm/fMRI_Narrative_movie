@@ -10,7 +10,10 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 - In the demonstrations, subdirectories under "derivative" are used.
 ### Path management and configuration updates
 - To set the root directory of the data, specify the root directory as "dir: derivative:" in the config file ("config__drama_data.yaml") under the "util" directory.
-- To visualize data on the flattened cortical map, set the pycortex filestore database directory according to the instructions at https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html.
+- To visualize data on the flattened cortical map, set the pycortex filestore database directory in the pycortex config file (~/.config/pycortex/options.cfg).
+'''filestore = {your pycortex_db dir}'''
+- More detailed instructions can be found at https://gallantlab.org/pycortex/auto_examples/quickstart/show_config.html.
+
 
 ## Environment setup
 Assuming the use of Miniconda.
