@@ -1,5 +1,7 @@
 # fMRI_Narrative_movie
-This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was collected to investigate brain representations related to cognitive functions involved in narrative understanding.<br>
+This code is prepared for analyzing [an fMRI dataset](openNeuroURL)(the overview of the data is as follows), which was collected to investigate brain representations related to cognitive functions involved in narrative understanding.<br>
+- We measured the BOLD responses during 6 participants watched 9 titles of narrative movies (8.6 hours in total).
+- For the movies, there are three types of annotations related to narrative understanding (objective information, speech transcription, narrative content (story)). 
 This code follows the analytical procedures outlined in the following paper.<br>
 We have prepared three types of demonstrations related to this analysis.<br>
 <br>
@@ -12,12 +14,12 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 - Data is available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
 - The subdirectories includes
-  - *preprocessed_data*: preprocessed fMRI bold responses
-  - *annotation*: three types of annotations (objective information,speech transcription, narrative content(story))
+  - *preprocessed_data*: Preprocessed fMRI bold responses.　
+  - *annotation*: Three types of annotations.
   - *feature*: LLM latent features extracted from the annotations
-  - *pycortex_db*: pycortex database, which is used for visualization of the analytical results on cortical surface.
-  - *localizer*: statistics and estimates derived from 9 types of functional localizer data.
-  - *ridge*: prediction accuracies of an individual encoding model using the latent features for the three types of annotations.
+  - *pycortex_db*: Pycortex database, which is used for visualization of the analytical results on cortical surface.
+  - *localizer*: Statistics and estimates derived from 9 types of functional localizer data.
+  - *ridge*: Prediction accuracies of an individual encoding model using the latent features for the three types of annotations.
   LLM latent features extracted from the annotations, pycortex database, localizer information, and results of encoding model fitting.
 ### Path management and configuration updates
 - To set the root directory of the data, specify the root directory as "dir: derivative:" in the config file ("config__drama_data.yaml") under the "util" directory.
