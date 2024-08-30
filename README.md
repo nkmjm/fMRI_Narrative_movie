@@ -5,10 +5,9 @@ This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was c
 
 This code follows the analytical procedures outlined in the following paper.<br>
 We have prepared three types of demonstrations related to this analysis.<br>
-<br>
-Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
-"Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
-[URL](xxx)<br>
+- Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
+  "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
+  [URL](xxx)
 
 ## Initial setup
 ### Prepare data used in the demonstrations
@@ -17,7 +16,7 @@ Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishim
 - The subdirectories includes
   - *preprocessed_data*: Preprocessed fMRI bold responses.　
   - *annotation*: Three types of annotations.
-  - *feature*: LLM latent features extracted from the annotations
+  - *feature*: LLM latent features extracted from the annotations.
   - *pycortex_db*: Pycortex database, which is used for visualization of the analytical results on cortical surface.
   - *localizer*: Statistics and estimates derived from 9 types of functional localizer data.
   - *ridge*: Prediction accuracies of an individual encoding model using the latent features for the three types of annotations.
