@@ -5,6 +5,7 @@ This code is prepared for analyzing [an fMRI dataset](openNeuroURL), which was c
 
 This code follows the analytical procedures outlined in the following paper.<br>
 We have prepared three types of demonstrations related to these analyses.<br>
+The three types of demonstrations: "demo__feature_extruction.ipynb" "demo__encoding_model_fitting.ipynb" "demo__pycortex_visualization.ipynb"
 - Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
   "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
   [URL](xxx)
