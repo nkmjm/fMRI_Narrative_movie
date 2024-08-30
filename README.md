@@ -2,10 +2,10 @@
 Here, we provide code to help investigate brain representations related to cognitive functions involved in narrative understanding.<br>
 This code follows the analytical procedures outlined in the following paper.<br>
 We have prepared three types of demonstrations related to this analysis.<br>
----------------
+<br>
 Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
 "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
-[URL](xxx)
+[URL](xxx)<br>
 
 ## Initial setup
 ### Prepare data used in the demonstrations
