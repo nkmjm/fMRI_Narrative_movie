@@ -1,6 +1,6 @@
 # fMRI_Narrative_movie
 Here, we provide code to help investigate brain representations related to cognitive functions involved in narrative understanding.<br>
-The code follows the analytical procedures outlined in the following paper, and we offer three types of demonstrations for the analyses.<br>
+This code follows the analytical procedures outlined in the following paper. We have prepared three types of demonstrations related to this analysis.<br>
 Hiroto Q. Yamaguchi, Naoko Koide-Majima, Rieko Kubo, Tomoya Nakai, Shinji Nishimoto<br>
 "Multi-Annotation fMRI Dataset from Extensive Drama and Film Viewing for Perceptual and Cognitive Research."<br>
 [URL](xxx)
@@ -43,7 +43,7 @@ for "demo__feature_extraction.ipynb"
 ## Demonstration
 Start jupyter notebook and setting Kernel to {env_name}.
 - "demo__feature_extruction.ipynb"
-  - Extracting LLM features ([GPT-2](url)) from sentences attributed to each 1-second movie scene of each type of the annotations.
+  - Extracting LLM features ([GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) from sentences attributed to each 1-second movie scene of each type of the annotations.
 - "demo__encoding_model_fitting.ipynb"
   - Constructing encoding model to predict the brain responses from the LLM latent features.
 - "demo__pycortex_visualization.ipynb"
