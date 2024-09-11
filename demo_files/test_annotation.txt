@@ -1,0 +1,3 @@
+This is a text file for the demonstration of feature extraction.
+Feature extraction will be performed on each line.
+Here is the last line in this file. This is the last sentence.
