@@ -15,7 +15,7 @@ We have prepared three types of demonstration codes related to these analyses:<b
 
 ## Initial setup
 ### Prepare data used in the demonstrations
-- Data is available from [OpenNeuro](url).
+- Data are available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
 - The subdirectories includes
   - *preprocessed_data*: Preprocessed fMRI bold responses.　
