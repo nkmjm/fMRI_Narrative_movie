@@ -18,7 +18,7 @@ We have prepared three types of demonstration codes related to these analyses:<b
 - Data are available from [OpenNeuro](url).
 - In the demonstrations, subdirectories under "derivative" are used.
 - The subdirectories includes
-  - *preprocessed_data*: Preprocessed fMRI bold responses.　
+  - *preprocessed_data*: Preprocessed fMRI BOLD responses.　
   - *annotation*: Three types of annotations.
   - *feature*: LLM latent features extracted from the annotations.
   - *pycortex_db*: Pycortex database, which is used for visualization of the analytical results on cortical surface.
