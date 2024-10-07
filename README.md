@@ -49,7 +49,7 @@ for "demo__feature_extraction.ipynb"
 - Install pycortex according to the instruction on the [Pycortex website](https://gallantlab.org/pycortex/install.html).<br> (for "demo__pycortex_visualization.ipynb")<br>
 
 ## Demonstration
-Start jupyter notebook and setting Kernel to {env_name}.
+Start jupyter notebook and setting Kernel to {env_name}.<br>
 "demo__feature_extruction.ipynb"
 - Extracting LLM features ([GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) from sentences attributed to each 1-second movie scene of each type of the annotations.
 - Parameters
