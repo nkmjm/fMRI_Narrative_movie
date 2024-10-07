@@ -55,7 +55,7 @@ Start jupyter notebook and setting Kernel to {env_name}.<br>
 - Parameters
   - *model_lang*: Specifying the language type of the GPT-2 models (Japanese (jp)/ English (en)).
   - *layer_no*: The number of layers from which to extract the latent features (range: 1–24).
-  - *text_path*: File paths of the annotations (.txt data).
+  - *text_path*: File path of the annotations (.txt data).
 
 "demo__encoding_model_fitting.ipynb"
 - Constructing individual　encoding models to predict the brain responses from the LLM latent features.
