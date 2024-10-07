@@ -50,13 +50,26 @@ for "demo__feature_extraction.ipynb"
 
 ## Demonstration
 Start jupyter notebook and setting Kernel to {env_name}.
-- "demo__feature_extruction.ipynb"
-  - Extracting LLM features ([GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) from sentences attributed to each 1-second movie scene of each type of the annotations.
-- "demo__encoding_model_fitting.ipynb"
-  - Constructing encoding model to predict the brain responses from the LLM latent features.
-- "demo__pycortex_visualization.ipynb"
-  - Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [Pycortex](https://gallantlab.org/pycortex/index.html).
-  - Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
+"demo__feature_extruction.ipynb"
+- Extracting LLM features ([GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)) from sentences attributed to each 1-second movie scene of each type of the annotations.
+- Parameters
+  - *model_lang*: Language type of the GPT-2 models (Japanese (jp)/ English (en)).
+  - *layer_no*: The number of layers to extract the latent features (1–24).
+  - *text_path*: The file paths of the annotations (text data).
+
+"demo__encoding_model_fitting.ipynb"
+- Constructing individual　encoding models to predict the brain responses from the LLM latent features.
+- Parameters
+  - *subject_name*: The name of the participant (e.g., "sub-S03").
+  - *feat_names*: Features to predict the BOLD responses (e.g., "")
+  - *movtitle_test*: The movie title used in the model testing (e.g., "bigbangtheory").
+
+"demo__pycortex_visualization.ipynb"
+- Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [Pycortex](https://gallantlab.org/pycortex/index.html).
+- Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
+- Parameters
+  - *subject_name*: The name of the participant (e.g., "sub-S03")
+  - *stat_path*: The file path of the statistics or estimates.
 
 ## Important notes
 "util/util_ridge.py" includes an excerpt from Gallant lab's Github code.<br>
