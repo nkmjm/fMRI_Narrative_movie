@@ -55,20 +55,20 @@ Start jupyter notebook and setting Kernel to {env_name}.
 - Parameters
   - *model_lang*: Language type of the GPT-2 models (Japanese (jp)/ English (en)).
   - *layer_no*: The number of layers to extract the latent features (1–24).
-  - *text_path*: The file paths of the annotations (text data).
+  - *text_path*: The file paths of the annotations (.txt data).
 
 "demo__encoding_model_fitting.ipynb"
 - Constructing individual　encoding models to predict the brain responses from the LLM latent features.
 - Parameters
-  - *subject_name*: The name of the participant (e.g., "sub-S03").
-  - *feat_names*: Features to predict the BOLD responses (e.g., "")
+  - *subject_name*: The name of the participant (e.g., "S03").
+  - *feat_names*: Features to predict the BOLD responses (e.g., "speechTranscription_GPT2medium_jp_layer12_mean")
   - *movtitle_test*: The movie title used in the model testing (e.g., "bigbangtheory").
 
 "demo__pycortex_visualization.ipynb"
 - Visualization of results (e.g. prediction accuracies of an encoding model) on the cortical surface using [Pycortex](https://gallantlab.org/pycortex/index.html).
 - Using this demonstration codes, you can visualize statistics and estimates regarding the 9 functional localizers and the encoding accuracies.
 - Parameters
-  - *subject_name*: The name of the participant (e.g., "sub-S03")
+  - *subject_name*: The name of the participant (e.g., "S03")
   - *stat_path*: The file path of the statistics or estimates.
 
 ## Important notes
